@@ -140,15 +140,16 @@ a:hover {
 
 .hero .hero-content .button-wrapper .bg-secondary {
   position: relative;
+
+  padding-left: 50px;
 }
 
 .hero .hero-content .button-wrapper .bg-secondary img {
   position: absolute;
-
   height: 18px;
   width: 18px;
   top: 25px;
-  left: 21px;
+  left: 27px;
 }
 
 .hero .hero-content p {
