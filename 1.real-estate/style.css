@@ -12,6 +12,22 @@ body {
 
 /* global style */
 
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+
+  color: #11052c;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+
+  color: #11052c;
+}
+
 .font-white {
   color: white;
 }
@@ -22,6 +38,10 @@ body {
 
 .bg-secondary {
   background: #e8630a;
+}
+
+.bg-blue {
+  background: #2289f2;
 }
 
 .line {
@@ -43,7 +63,7 @@ body {
 }
 
 .section {
-  padding: 40px 20px;
+  padding: 80px 20px;
 }
 
 .container {
@@ -201,4 +221,85 @@ a:hover {
 .obj3 img {
   height: 100%;
   width: 100%;
+}
+
+/* service section styling */
+
+.service .service-wrapper {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.service .service-wrapper .service-image {
+  width: 560px;
+  height: 515px;
+}
+
+.service .service-wrapper .service-content {
+  width: 584px;
+  margin-left: 50px;
+}
+
+.service .service-wrapper .service-obj1 {
+  height: 226px;
+  width: 226px;
+  position: absolute;
+  top: -64px;
+  left: 340px;
+}
+
+.service .service-wrapper .service-obj2 {
+  position: absolute;
+
+  top: -80px;
+  right: 390px;
+}
+
+.service .service-wrapper .service-obj3 {
+  position: absolute;
+
+  top: 8px;
+  left: 80px;
+}
+
+.service .service-wrapper .service-obj1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.service .service-wrapper .service-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.service-content .service-info {
+  display: flex;
+  margin-top: 30px;
+}
+
+.service-content .service-info .info-img {
+  margin-right: 20px;
+}
+
+.service-info .info-img .info-img-container {
+  height: 68px;
+  width: 68px;
+
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* utility */
+
+.margin-40px {
+  margin-top: 40px !important;
+}
+
+.padding-40px {
+  padding-top: 40px !important;
 }
